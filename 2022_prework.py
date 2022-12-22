@@ -68,11 +68,13 @@
 #             print(True)
 #         elif a_year % 100 != 0:
 #             print(False)
+#         else:
+#             print(False)
 #     else:
 #         print(False)
     
 
-# is_leap_year(2000)
+# is_leap_year(1900)
 
                 
 
@@ -87,14 +89,11 @@
 
 # def is_consecutive(a_list):
 
+#     range_list=list(range(min(a_list), max(a_list)+1))
+#     if range_list == a_list:
+#         print(True)
+#     else:
+#         print(False)
 
-
-#     for i in range(a_list[0]):
-#         if i + 1 == a_list[1]:
-#             print(True)
-#         else:
-#             print(False)
-
-
-# is_consecutive([1,2,3])    
+# is_consecutive([1,2,3,5])    
 
