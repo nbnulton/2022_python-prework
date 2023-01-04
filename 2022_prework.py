@@ -61,20 +61,20 @@
 #         .....
 
 
-# def is_leap_year(a_year):
+def is_leap_year(a_year):
 
-#     if a_year % 4 == 0:
-#         if a_year % 400 == 0:
-#             print(True)
-#         elif a_year % 100 != 0:
-#             print(False)
-#         else:
-#             print(False)
-#     else:
-#         print(False)
+    if a_year % 4 == 0:
+        if a_year % 100 != 0:
+            print(True)
+        elif a_year % 400 == 0:
+            print(True)
+        else:
+            print(False)
+    else:
+        print(False)
     
 
-# is_leap_year(1900)
+is_leap_year(1900)
 
                 
 
